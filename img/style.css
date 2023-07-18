@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.fixed-width{
+    width: 1200px;
+    margin:  auto;
+}
+
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+img{
+    max-width:100%;
+}
+
+
+.header{
+    height: 50px;
+    background: #3498db
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+   
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-left:170px;
+    
+    
+}
+
+    
+    
+
+.manu{
+    width: 70%;
+    float: right;
+    
+}
+.manu ul{
+    text-align: right;
+}
+.manu ul li{
+    display: inline-block;
+    
+}
+.manu ul li a {
+    text-decoration: none;
+    color: #fff;
+    border-right: 1px solid #ddd;
+    display: block;
+    padding: 0 30px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.manu ul li a:hover{
+    background-color: #2980b9;
+}
+
+
+
+.banar{
+    background-image: url(./download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px
+}
+
+
+.name h3{
+    color: #ddd;
+    background-color: rgba(24, 167, 224, 0.548);
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.name h1{
+    color: #ddd;
+    background-color: rgb(100, 186, 226);
+    max-width: 400px;
+    margin: auto;
+    padding: 10px 10px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.service{
+    
+    
+    margin: 48px 0 0 240px;
+}
+
+.html{
+    width: 25%;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+   margin-right: 5px;
+    box-sizing: border-box;
+
+ } 
+.css{
+    width: 25%;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 5px;
+    box-sizing: border-box;
+}
+.jvs{
+    width: 25%; 
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+   margin-left: 5px;
+    box-sizing: border-box;
+}
+
+.service span{
+
+    background-color: rgba(26, 186, 207, 0.384);
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+
